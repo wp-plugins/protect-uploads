@@ -73,7 +73,7 @@
 						<label for=""><span class="dashicons dashicons-welcome-learn-more"></span> <?php _e('Support', $this->plugin_name); ?></label>
 					</th>
 					<td>
-						<p><?php _e('Protect Uploads Plugin <a href="http://www.alticreation.com/en/alti-protect-uploads/" target="_blank">support page</a>.', $this->plugin_name); ?></p>
+						<p><?php _e('Protect Uploads Plugin <a href="http://www.alticreation.com/en/protect-uploads/" target="_blank">support page</a>.', $this->plugin_name); ?></p>
 						<p><?php _e('This plugin is compatible with the <span class="dashicons dashicons-awards"></span> <a href="http://www.alticreation.com/en/alti-watermark/" target="_blank">Watermark Plugin</a>.', $this->plugin_name); ?></p>
 						<p class="small"><?php _e('To do so, you have to: 1. Install the Watermark Plugin 2. Then choose your settings in this page and Update.', $this->plugin_name); ?></p>
 					</td>
@@ -89,11 +89,11 @@
 		</table>
 
 	</form>
-	<div id="message" class="updated alti-protect-uploads-footer">
-		<a class="logo" href="http://www.alticreation.com?plugin=alti-protect-uploads"><img src="http://alticreation.com/logos/alticreation_color_01.png" alt="alticreation"></a>
+	<div id="message" class="updated protect-uploads-footer">
+		<a class="logo" href="http://www.alticreation.com?plugin=protect-uploads"><img src="http://alticreation.com/logos/alticreation_color_01.png" alt="alticreation"></a>
 		<p><?php _e('Protect Uploads plugin is developped by', $this->plugin_name); ?> <a href="http://www.alticreation.com/en/profile">Alexis Blondin</a>.</p>
 		<div class="share">
-			<a href="http://www.alticreation.com?plugin=alti-protect-uploads" target="_blank">alticreation.com</a>
+			<a href="http://www.alticreation.com?plugin=protect-uploads" target="_blank">alticreation.com</a>
 			<a href="https://plus.google.com/+AlexisBlondin" target="_blank">google&nbsp;+</a>
 			<a href="https://twitter.com/alticreation" target="_blank">twitter</a>
 		</div>

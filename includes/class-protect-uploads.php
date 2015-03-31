@@ -12,7 +12,7 @@ class Alti_ProtectUploads {
 	public function __construct() {
 
 		$this->version = '0.1';
-		$this->plugin_name = 'alti-protect-uploads';
+		$this->plugin_name = 'protect-uploads';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -25,9 +25,9 @@ class Alti_ProtectUploads {
 	 */
 	private function load_dependencies() {
 
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-alti-protect-uploads-loader.php';
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-alti-protect-uploads-i18n.php';
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-alti-protect-uploads-admin.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-protect-uploads-loader.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-protect-uploads-i18n.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-protect-uploads-admin.php';
 		
 		$this->loader = new Alti_ProtectUploads_Loader();
 
