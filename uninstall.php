@@ -33,7 +33,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 class Alti_ProtectUploads_Uninstall {
 
 	public static function run() {
-		$plugin_name = 'alti-protect-uploads';
+		$plugin_name = 'protect-uploads';
 		if( is_admin()) delete_option( $plugin_name . '-protection' );
 	}
 

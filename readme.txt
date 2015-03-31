@@ -1,6 +1,6 @@
 === Protect uploads ===
 Contributors: alticreation
-Donate link: http://www.alticreation.com/en/alti-protect-uploads/
+Donate link: http://www.alticreation.com/en/protect-uploads/
 Tags: uploads, protection, images protection, browsing images, uploads folder, image folder, avoid browsing folder, hide uploads, prevent uploads browsing, prevent images browsing
 Requires at least: 3.0.1
 Tested up to: 4.1.1
@@ -22,11 +22,11 @@ Available languages :
 * Français
 * Español
 
-For support, please visit [protect uploads plugin](http://www.alticreation.com/en/alti-protect-uploads/ "protect uploads plugin for Wordpress by alticreation")
+For support, please visit [protect uploads plugin](http://www.alticreation.com/en/protect-uploads/ "protect uploads plugin for Wordpress by alticreation")
 
 == Installation ==
 
-1. Upload `alti-protect-uploads` folder to the `/wp-content/plugins/` directory
+1. Upload `protect-uploads` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 Note : GD library is needed and being able to create a .htaccess file in uploads directory.
@@ -34,7 +34,7 @@ Note : GD library is needed and being able to create a .htaccess file in uploads
 == Frequently Asked Questions ==
 
 = Support =
-You can ask question and read documentation at [protect uploads plugin](http://www.alticreation.com/en/alti-protect-uploads/ "protect uploads plugin for Wordpress by alticreation")
+You can ask question and read documentation at [protect uploads plugin](http://www.alticreation.com/en/protect-uploads/ "protect uploads plugin for Wordpress by alticreation")
 
 == Screenshots ==
 

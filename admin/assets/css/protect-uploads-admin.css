@@ -1,0 +1,69 @@
+#wrap.protect-uploads h2 {
+	font-size: 30px;
+}
+#wrap.protect-uploads h2 span, #wrap.protect-uploads h2 span * {
+	font-size: 14px;
+	color: #238ECB;
+}
+#wrap.protect-uploads .description {
+	color: #666;
+}
+#wrap.protect-uploads .small {
+	font-size: .8em;
+	font-style: none !important;
+}
+#wrap.protect-uploads .alert {
+	font-size: .9em;
+	color: #238ECB;
+}
+#wrap.protect-uploads .error {
+	color: #E23C0C;
+}
+#wrap.protect-uploads .valid {
+	color: #7ad03a;
+}
+#wrap.protect-uploads .valid.note {
+	margin-left: 25px;
+	background: #fff;
+	display: inline-block;
+	padding:10px;
+}
+#wrap.protect-uploads .valid.note span {
+	color: #919191;
+}
+#wrap.protect-uploads label span.dashicons-image-crop:before {
+	font-size: 16px !important;
+	color: #aaa;
+}
+#wrap.protect-uploads th label span.dashicons {
+	color: #238ECB;
+	margin: 0 5px 10px 0;
+}
+#wrap.protect-uploads td label {
+	margin-bottom: 15px !important;
+}
+#wrap.protect-uploads td label p.description {
+	margin-left: 25px;
+}
+#wrap.protect-uploads img.protect-uploads {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+#wrap.protect-uploads .protect-uploads-footer {
+	border-left: 0 !important;
+	margin-left: 0 !important;
+	overflow: hidden;
+	padding: 15px !important;
+	margin-top: 30px;
+}
+#wrap.protect-uploads .protect-uploads-footer .logo {
+	float: left;
+	margin-right: 20px;
+}
+#wrap.protect-uploads .protect-uploads-footer .share a {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #238ECB;
+	color: #fff;
+	margin: 0 5px 0 0;
+}
