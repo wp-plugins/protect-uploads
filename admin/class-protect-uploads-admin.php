@@ -224,7 +224,9 @@ class Alti_ProtectUploads_Admin {
 	 */
 	public function get_current_protection() {
 		// check if header is 200 (ok)
-		if( preg_match('/200/i', get_headers( self::get_uploads_url() . '/' )[0] )) {
+		$uploads_headers = @get_headers( self::get_uploads_url() . '/' );
+		if(!is_array($uploads_headers)) $uploads_headers[0] = '';
+		if( preg_match('/200/i', $uploads_headers[0] )) {
 			// because
 			if( !file_exists( self::get_uploads_dir() .'/index.php' ) ) {
 				return false;
@@ -234,7 +236,7 @@ class Alti_ProtectUploads_Admin {
 			}
 		}
 		// check if header is 403 (forbidden)
-		if( preg_match('/403/i', get_headers( self::get_uploads_url() . '/' )[0] )) {
+		if( preg_match('/403/i', $uploads_headers[0] )) {
 			if( !file_exists( self::get_uploads_dir() .'/index.php' ) ) {
 				return true;
 			}
