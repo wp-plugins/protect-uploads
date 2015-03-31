@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: alti-protect-uplodas\n"
-"POT-Creation-Date: 2015-03-31 11:08-0500\n"
-"PO-Revision-Date: 2015-03-31 11:08-0500\n"
+"POT-Creation-Date: 2015-03-31 11:41-0500\n"
+"PO-Revision-Date: 2015-03-31 13:19-0500\n"
 "Last-Translator: alticreation <alexis@alticreation.com>\n"
 "Language-Team: alticreation <alexis@alticreation.com>\n"
 "Language: fr\n"
@@ -16,39 +16,39 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-alti-protect-uploads-admin.php:56
+#: admin/class-protect-uploads-admin.php:56
 msgid "Settings"
 msgstr "Réglages"
 
-#: admin/class-alti-protect-uploads-admin.php:100
+#: admin/class-protect-uploads-admin.php:100
 msgid "Impossible to create or modified the index.php file."
 msgstr "Il est impossible de créer ou modifier le fichier index.php."
 
-#: admin/class-alti-protect-uploads-admin.php:108
+#: admin/class-protect-uploads-admin.php:108
 msgid "The index.php file has been created."
 msgstr "Le fichier index.php a été créé."
 
-#: admin/class-alti-protect-uploads-admin.php:142
+#: admin/class-protect-uploads-admin.php:142
 msgid "Impossible to create or modified the htaccess file."
 msgstr "Impossible de créer ou modifier le fichier htaccess."
 
-#: admin/class-alti-protect-uploads-admin.php:151
+#: admin/class-protect-uploads-admin.php:151
 msgid "The htaccess file has been created."
 msgstr "Le fichier htaccess a été créé."
 
-#: admin/class-alti-protect-uploads-admin.php:163
+#: admin/class-protect-uploads-admin.php:163
 msgid "Existing htaccess has been updated."
 msgstr "Le fichier htaccess préexistant a été mis à jour."
 
-#: admin/class-alti-protect-uploads-admin.php:187
+#: admin/class-protect-uploads-admin.php:187
 msgid "The index.php file has been deleted."
 msgstr "Le fichier index.php a été supprimé."
 
-#: admin/class-alti-protect-uploads-admin.php:214
+#: admin/class-protect-uploads-admin.php:214
 msgid "The htaccess file has been updated."
 msgstr "Le fichier htaccess a été mis à jour."
 
-#: admin/class-alti-protect-uploads-admin.php:256
+#: admin/class-protect-uploads-admin.php:256
 msgid ""
 "The Protect Uploads plugin cannot work without Apache. Yourself or your web "
 "host has to activate this module."
@@ -56,11 +56,19 @@ msgstr ""
 "L'extension «Protect Uploads» ne peut pas fonctionner sans APache. Vous-même "
 "ou votre hébergeur web doit active ce module."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:9
+#: admin/views/includes/protect-uploads-admin-message.php:7
+msgid "Error code"
+msgstr "Code erreur"
+
+#: admin/views/includes/protect-uploads-admin-message.php:7
+msgid "Go to Protect Uploads documentation"
+msgstr "Aller à la documentation de Protect Uploads"
+
+#: admin/views/protect-uploads-admin-settings-page.php:9
 msgid "by"
 msgstr "par"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:10
+#: admin/views/protect-uploads-admin-settings-page.php:10
 msgid ""
 "Prevent users to browse your uploads directory. You'll protect your uploads "
 "directory to be accessed and content stolen too easily in one batch."
@@ -69,15 +77,15 @@ msgstr ""
 "Vous protégerez votre répertoire uploads. Il ne sera pas accessible et le "
 "contenu ne pourra pas être voler."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:17
+#: admin/views/protect-uploads-admin-settings-page.php:17
 msgid "Status"
 msgstr "Statut"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:22
+#: admin/views/protect-uploads-admin-settings-page.php:22
 msgid "Uploads directory is protected."
 msgstr "Le repertoire Uploads est protégé."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:24
+#: admin/views/protect-uploads-admin-settings-page.php:24
 msgid ""
 "Your uploads directory is <strong>already protected</strong> by an htaccess "
 "file or an Apache setting set for the whole website. You don't need extra "
@@ -89,20 +97,20 @@ msgstr ""
 "protection supplémentaire.<br>L'option «supprimer» ci-dessous n'aura pas "
 "d'effet sur la protection actuelle."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:27
+#: admin/views/protect-uploads-admin-settings-page.php:27
 msgid "Uploads directory is not protected!"
 msgstr "Le repertoire Uploads n'est pas protégé !"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:34
-#: admin/views/alti-protect-uploads-admin-settings-page.php:39
+#: admin/views/protect-uploads-admin-settings-page.php:34
+#: admin/views/protect-uploads-admin-settings-page.php:39
 msgid "Protection"
 msgstr "Protection"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:44
+#: admin/views/protect-uploads-admin-settings-page.php:44
 msgid "add index file"
 msgstr "ajouter un fichier index"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:45
+#: admin/views/protect-uploads-admin-settings-page.php:45
 msgid ""
 "This will create an index.php file on the root of your uploads directory. "
 "This simple trick will hide the content of your whole uploads directory."
@@ -110,11 +118,11 @@ msgstr ""
 "Ceci créera un fichier index.php à la racine du repertoire Uploads. Cette "
 "simple manipulation cachera le contenu de tout votre repertoire Uploads."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:50
+#: admin/views/protect-uploads-admin-settings-page.php:50
 msgid "prevent directory listing with htaccess"
 msgstr "Empêcher le listage du repertoire Uploads avec htaccess"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:51
+#: admin/views/protect-uploads-admin-settings-page.php:51
 msgid ""
 "Through the htaccess file, it will prevent people to browse your uploads "
 "directory and return a 403 code (Forbidden Access)."
@@ -123,43 +131,43 @@ msgstr ""
 "repertoires Uploads librement et ceci retournera un code 403 (Accès "
 "Interdit)."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:56
+#: admin/views/protect-uploads-admin-settings-page.php:56
 msgid "remove protection or disabled protection"
 msgstr "enlever la protection ou protection désactivée"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:57
+#: admin/views/protect-uploads-admin-settings-page.php:57
 msgid "Your uploads directory is not protected."
 msgstr "Votre repertoire Uploads n'est pas protégé."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:65
+#: admin/views/protect-uploads-admin-settings-page.php:65
 msgid "Check"
 msgstr "Contrôle"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:68
+#: admin/views/protect-uploads-admin-settings-page.php:68
 msgid "Visit your"
 msgstr "Visitez votre"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:68
+#: admin/views/protect-uploads-admin-settings-page.php:68
 msgid "uploads directory"
 msgstr "repertoire Uploads"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:68
+#: admin/views/protect-uploads-admin-settings-page.php:68
 msgid "to check the current protection"
 msgstr "pour verifier la protection actuelle."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:73
+#: admin/views/protect-uploads-admin-settings-page.php:73
 msgid "Support"
 msgstr "Support"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:76
+#: admin/views/protect-uploads-admin-settings-page.php:76
 msgid ""
-"Protect Uploads Plugin <a href=\"http://www.alticreation.com/en/alti-protect-"
+"Protect Uploads Plugin <a href=\"http://www.alticreation.com/en/protect-"
 "uploads/\" target=\"_blank\">support page</a>."
 msgstr ""
 "<a href=\"http://www.alticreation.com/en/alti-protect-uploads/\" target="
 "\"_blank\">Page de support</a> de l'extension Protect Uploads."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:77
+#: admin/views/protect-uploads-admin-settings-page.php:77
 msgid ""
 "This plugin is compatible with the <span class=\"dashicons dashicons-awards"
 "\"></span> <a href=\"http://www.alticreation.com/en/alti-watermark/\" target="
@@ -169,7 +177,7 @@ msgstr ""
 "\"></span> <a href=\"http://www.alticreation.com/en/alti-watermark/\" target="
 "\"_blank\">l'extension Watermark</a>."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:78
+#: admin/views/protect-uploads-admin-settings-page.php:78
 msgid ""
 "To do so, you have to: 1. Install the Watermark Plugin 2. Then choose your "
 "settings in this page and Update."
@@ -177,18 +185,10 @@ msgstr ""
 "Pour faire cela, vous devez : 1. Installer l'extension Watermark 2. Ensuite "
 "choisir vos réglages dans cette page puis Mettre à jour."
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:85
+#: admin/views/protect-uploads-admin-settings-page.php:85
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: admin/views/alti-protect-uploads-admin-settings-page.php:94
+#: admin/views/protect-uploads-admin-settings-page.php:94
 msgid "Protect Uploads plugin is developped by"
 msgstr "L'extension Protect Uploads est développé par"
-
-#: admin/views/includes/alti-protect-uploads-admin-message.php:7
-msgid "Error code"
-msgstr "Code erreur"
-
-#: admin/views/includes/alti-protect-uploads-admin-message.php:7
-msgid "Go to Protect Uploads documentation"
-msgstr "Aller à la documentation de Protect Uploads"
