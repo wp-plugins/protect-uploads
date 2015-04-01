@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Protect your uploads directory to people who want to browse it. Avoid browsing of your uploads directory by adding a htaccess file or an index.php file.
+Protect your uploads directory to people who want to browse it. Avoid browsing of your uploads directory by adding a htaccess or index.php file.
 
 == Description ==
 
@@ -20,7 +20,7 @@ Available languages :
 
 * English
 * Français
-* Español (soon)
+* Español
 
 For support, please visit [protect uploads plugin](http://www.alticreation.com/en/protect-uploads/ "protect uploads plugin for Wordpress by alticreation")
 
